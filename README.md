@@ -1,37 +1,79 @@
 # Contador de Vogais
-- Programa em Python que conta a quantidade de vogais (a, e, i, o, u) presentes em um texto digitado pelo usuário, considerando letras maiúsculas e minúsculas.
+- Programa em Python que conta a quantidade de vogais presentes em um texto digitado pelo usuário.
+- O projeto foi desenvolvido para praticar lógica de programação, organização de código e boas práticas de desenvolvimento em Python.
 
 ---
 
-### Funcionalidades (v1.0)
-- Solicita um texto ao usuário
-- Conta as vogais `a`, `e`, `i`, `o`, `u`
-- Considera maiúsculas e minúsculas (ex.: `A` conta como `a`)
-- Funciona com frases completas, espaços e pontuação
+### Versão
+- **v1.1**
 
 ---
 
-### Como executar
-1. Tenha o Python 3 instalado.
-2. No terminal, navegue até a pasta do projeto.
-3. Execute:
+### Funcionalidades
+- Contagem total de vogais em um texto
+- Contagem individual de cada vogal (a, e, i, o, u)
+- Suporte a letras maiúsculas e minúsculas
+- Saída formatada no terminal
 
-```bash
-python main.py
-```
+---
+
+### Como funciona
+- O programa solicita que o usuário digite um texto.  
+
+Após isso, ele:
+1. Conta o número total de vogais presentes no texto.
+2. Exibe a contagem detalhada de cada vogal.
 
 ---
 
 ### Exemplo de uso
-- Entrada: Mariana
-- Saída: O texto contém 4 vogais.
+- Entrada: 
+```
+Digite um texto: Mariana
+```
+
+- Saída: 
+```
+==============================================================================
+Contador de Vogais
+O texto digitado contém 4 vogais.
+==============================================================================
+Contagem por vogal:
+a: 3
+e: 0
+i: 1
+o: 0
+u: 0
+```
 
 ---
 
 ### Estrutura do projeto
-- main.py: contém a função de contagem e o fluxo principal do programa
+```contador-de-vogais/
+│
+├── main.py
+└── README.md
+```
 
 ---
 
-### Tecnologias
+### Tecnologias utilizadas
 - Python 3
+
+---
+
+### Objetivo do projeto
+- Este projeto foi desenvolvido para praticar:
+  - Manipulação de strings
+  - Estruturas de repetição (`for`)
+  - Estruturas de dados (`set` e `dict`)
+  - Organização de código em funções
+  - Uso de constantes
+  - Docstrings e legibilidade de código
+
+---
+
+### Melhorias da versão 1.1
+- Adicionada contagem individual de cada vogal
+- Melhorada a formatação da saída no terminal
+- Uso de constante global para o conjunto de vogais
